@@ -49,8 +49,22 @@ main.m
   Equipment parameter settings.
 
 - `sp_mosekcal.m`  
-  Implementation of the state similarity-based calculation method.
+  Implementation of the state similarity-based calculation method (based on mosek solver).
 
 ---
 
 Before running the code, please make sure that all required solvers (e.g., MOSEK) and toolboxes are properly installed and configured in MATLAB.
+
+## 📚 Citation
+
+If this code is helpful to your research, we would sincerely appreciate it if you could cite the following papers:
+
+1. Qu, Jiawei, Zeyu Liu, Kai Hou, Yue Zhou, Lewei Zhu, Xiaohong Dong, Yunfei Mu, and Hongjie Jia.  
+   "Joint planning of economy and reliability for integrated community energy systems: A similarity-based massive scenario optimization approach."  
+   *Applied Energy* 381 (2025): 125054.
+
+2. Qu, Jiawei, Kai Hou, Zeyu Liu, Yue Zhou, Lewei Zhu, Xiaohong Dong, Yunfei Mu, and Hongjie Jia.  
+   "A hybrid time-and-event-driven strategy for integrated community energy system planning."  
+   *Applied Energy* 384 (2025): 125274.
+
+Your recognition and citation would be greatly appreciated.
