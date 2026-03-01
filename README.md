@@ -16,13 +16,6 @@ To handle massive uncertainty scenarios, a similarity-based scenario reduction m
 
 ---
 
-## ⚙️ Main Components
-
-- Massive scenario generation  
-- Similarity-based scenario clustering  
-- Scenario reduction  
-- Joint economic–reliability optimization model
-
 - ## 🚀 Code Running Instructions
 
 The program can be executed directly by running:
@@ -40,7 +33,7 @@ main.m
   Parameter file for the base scenario sensitivity analysis.
 
 - `getparaDR.m`  
-  Parameter file for the demand response (DR) scenario sensitivity analysis.
+  Parameter file for the demand response (DR) scenario sensitivity analysis
 
 - `getparaeco.m`  
   Parameter file for the economic parameter sensitivity analysis.
@@ -54,6 +47,16 @@ main.m
 ---
 
 Before running the code, please make sure that all required solvers (e.g., MOSEK) and toolboxes are properly installed and configured in MATLAB.
+
+## 🔧 Additional Notes
+
+- In `main.m`, we provide reliability analysis from **N-1 to N-k**.  
+  You can enable the corresponding analysis by removing the comments in the relevant sections.
+
+- If you would like to modify or add equipment models, please update the parameter files:
+  - `getpara.m`
+  - `getparaDR.m`
+  - `getparaeco.m`
 
 ## 📚 Citation
 
