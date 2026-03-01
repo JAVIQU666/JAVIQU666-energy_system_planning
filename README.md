@@ -21,4 +21,36 @@ To handle massive uncertainty scenarios, a similarity-based scenario reduction m
 - Massive scenario generation  
 - Similarity-based scenario clustering  
 - Scenario reduction  
-- Joint economic–reliability optimization model  
+- Joint economic–reliability optimization model
+
+- ## 🚀 Code Running Instructions
+
+The program can be executed directly by running:
+
+```matlab
+main.m
+```
+
+### 📂 File Description
+
+- `main.m`  
+  Main script of the project. Run this file to execute the optimization model.
+
+- `getpara.m`  
+  Parameter file for the base scenario sensitivity analysis.
+
+- `getparaDR.m`  
+  Parameter file for the demand response (DR) scenario sensitivity analysis.
+
+- `getparaeco.m`  
+  Parameter file for the economic parameter sensitivity analysis.
+
+- `Equip_set.m`  
+  Equipment parameter settings.
+
+- `sp_mosekcal.m`  
+  Implementation of the state similarity-based calculation method.
+
+---
+
+Before running the code, please make sure that all required solvers (e.g., MOSEK) and toolboxes are properly installed and configured in MATLAB.
