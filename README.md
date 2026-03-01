@@ -1,9 +1,5 @@
 # Joint Planning of Economy and Reliability for Integrated Community Energy Systems
 
-This repository provides the implementation of the paper:
-
-**“Joint Planning of Economy and Reliability for Integrated Community Energy Systems: A Similarity-Based Massive Scenario Optimization Approach”**
-
 ## 📌 Description
 
 This project develops a joint planning model for integrated community energy systems (ICES), considering:
